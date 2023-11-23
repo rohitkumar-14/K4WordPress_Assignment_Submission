@@ -1,0 +1,327 @@
+/*
+Theme Name: Cloth Theme
+Author: Rohit Kumar
+Version: 1.0
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 2px solid #eaf1f2;
+}
+
+.header-image {
+    max-height: 100%; 
+    width: auto;
+    max-width: 100%;
+}
+.navbar {
+    height: 58px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #eaf1f2;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+li {
+    margin: 0 24px; 
+}
+
+a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #eaf1f2;
+    border-right: 1px solid #eaf1f2;
+    background-size: cover;
+}
+
+.search-icon {
+    background-image: url('Slices/search.png');
+}
+
+.cart-icon {
+    background-image: url('Slices/trolley.png');
+    position: relative;  
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #479e47;
+    color: #ffffff;
+    border-radius: 70%;
+    padding: 4px;
+    font-size: 10px;
+}
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+.product-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+}
+.section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1eb089;
+    margin-left: 280px;
+    padding: 0;
+}
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 280px; 
+}
+
+.product-card {
+    width: 295px;
+    height: 340px;
+    background-color: #ffffff;
+    border: 1px solid #eaf1f2;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.icon.pro-cart-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #1eb089;  
+    align-items: center;
+    justify-content: center;
+}
+.icon.pro-cart-icon img{
+    width: 30px;
+    height: 30px;
+    background-color: #1eb089;  
+}
+
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    font-size: 12px;
+    color: #818181;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.product-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.original-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+    color: #818181;
+}
+
+.discounted-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    font-size: 12px;
+    color: #ff4d36;
+    margin-left: 8px;
+    text-decoration: line-through;
+}
+.blog-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    margin-bottom: 100px;
+}
+.image-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 280px;  
+}
+
+.image-card {
+    width: 310px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid #eaf1f2;
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-details {
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 0; 
+}
+
+.left-heading,
+.right-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #818181;
+    margin: 0;
+    padding: 0;
+}
+
+.left-heading {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.right-heading {
+    font-weight: 600;
+    font-size: 14px;
+}
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 70px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+.footer-section {
+    text-align: center;
+    margin: 20px 80px;
+}
+
+.footer-logo {
+    width: 300px; 
+    height: 50px;
+}
+
+.footer-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #818181;
+    width: 300px; 
+    height: 50px;
+    display: block;
+}
+
+.footer-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+    color: #9a9a9a;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+
+.footer-list {
+    margin-top: 34px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-list li span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #818181;
+}
+
+.copyright {
+    text-align: center;
+    padding: 40px; 
+    background-color: #000000;
+}
+
+.border-top {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff3b;
+}
+.copyright2{
+    display: flex;
+    justify-content: space-around;
+}
+.copyright-heading,
+.copyright-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; /* Montserrat Light */
+    color: #a09090;
+    margin: 20px 0 0;
+    padding: 0;
+}
